@@ -172,9 +172,9 @@ export const SkillsInfo = [
     {
       id: 0,
       img: glaLogo,
-      school: "GLA University, Mathura",
+      school: "Sharpner ",
       date: "2024 -  2025",
-      grade: "7.81 CGPA",
+      grade: "8.25 grade",
       desc: "I have successfully completed my Frontend Development training from Sharpner, where I gained hands-on experience and certification in technologies like React, HTML, CSS, Java, Bootstrap, Tailwind CSS, and Firebase. Along with that, I also strengthened my knowledge of Data Structures and Algorithms. I also built several industry-level projects that gave me real-world exposure and confidence to work as a professional frontend developer.",
       degree: "React devloper & Java (DSA)",
     },
@@ -184,7 +184,7 @@ export const SkillsInfo = [
       school: "Ranchi university, Ranchi",
       date: "Sept 2020 - sept 2023",
       grade: "71%",
-      desc: "I completed my Bachelor's degree in Computer Application (B.Sc.) from RLSY College, Ranchi. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      desc: "I completed my Bachelor's degree in Computer Application (B.Sc.) from RLSY College, Ranchi. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at Rlsy College allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Science - BSC (Computer Application)",
     },
     // {
