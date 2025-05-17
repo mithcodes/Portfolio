@@ -50,7 +50,7 @@ const Skills = () => (
                     alt={`${skill.name} logo`}
                     className="w-6 h-6 sm:w-8 sm:h-8"
                   />
-                  <span className="text-xs sm:text-sm lg:text-xl
+                  <span className="text-xs sm:text-sm  md:text-sm  lg:text-lg
                   text-gray-300">
                     {skill.name}
                   </span>
