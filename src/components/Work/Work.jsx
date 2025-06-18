@@ -66,8 +66,10 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4 ">
+          {/* <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative"> */}
+         <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-y-auto max-h-[80vh] relative">
+
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -78,7 +80,7 @@ const Work = () => {
             </div>
 
             <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+              <div className="w-full lg:[80v] flex justify-center bg-gray-900 px-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
